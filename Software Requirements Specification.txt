@@ -1,0 +1,41 @@
+Software Requirements Specification
+
+1. Introduction
+
+1.1 Purpose:
+The purpose of this document is to provide a comprehensive overview of the software requirements for PixelPioneers. It outlines the functional and non-functional requirements, constraints, and other essential aspects of the software.
+
+1.2 Team Members:
+
+Team Lead: Mukunda K G
+Developers: Joshika, Naganaethra
+Designers: Jessica F, Kavya R
+Business Analyst: Libin Joyel, Naresh A N
+Tester: Naveenkumar
+
+2. General Description:
+This project is a webpage created by a team of 8 members. It has the following specifications:
+
+Landing Page Creation:
+The landing page will serve as the primary interface for visitors to learn about the client's offerings.
+
+Content Creator Services Display:
+This section will highlight the content creation services offered by the client.
+
+Social Media Marketer Services Display:
+This section will emphasize the client's expertise in social media marketing.
+
+Navigation Bar with Anchor Tags:
+The navigation bar will facilitate easy navigation for users to access different sections of the landing page.
+
+Smooth Navigation between Sections:
+Clicking on HOME, SERVICES, or CONTACT in the navigation bar will smoothly transition users to the corresponding sections of the page.
+
+Home Section with Personalized Information:
+The Home Section will provide a personalized introduction to the client and include a visual element with their name and photo.
+
+Services Section with Descriptive Cards:
+This section will offer detailed information about the client's services through visually appealing cards with descriptive content.
+
+Contact Section with Information:
+Visitors can easily find and use the provided contact information to reach out to the client for inquiries or collaborations.
