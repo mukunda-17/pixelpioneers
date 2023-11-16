@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Client's Portfolio</title>
+</head>
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+
+  }
+  
+  header {
+    background-color: #333;
+    padding: 20px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: #61dafb;
+    text-decoration:underline;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  .profile-pic {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 20px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profile-pic:hover {
+    transform: scale(1.1);
+  }
+  
+  .section {
+    padding: 50px 0;
+  }
+  
+  .home-section {
+    background-color: #f5f5f5;
+  }
+  
+  .heading {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .services-section {
+    background-color: #fff;
+  }
+  
+  .card {
+    background-color: #f5f5f5;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    
+  }
+  
+  .contact-section {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .contact-heading {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .contact-info {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  #hlo{
+    text-decoration:none;
+  }
+  </style>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section home-section">
+    <div class="container">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTxoOGOgrf6j8wBO_t92ryv2tnseAPM78vFw&usqp=CAU" alt="Client Photo" class="profile-pic">
+      <h1 class="heading">Client's Name</h1>
+      <Details>
+         Name<br>
+         Gender<br>
+         DOB</Details>
+    </div>
+  </section>
+
+  <section id="services" class="section services-section">
+    <div class="container">
+      <div class="card">
+        <h2>Content Creator</h2>
+        <p><a href="contentcreator.html">View Content</a></p>
+        
+      </div>
+      <div class="card">
+        <h2>Social Media Marketer</h2>
+        <p><a href="marketer.html">View Content</a></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact-section">
+    <div class="container">
+      <h2 class="contact-heading">Contact</h2>
+      <p class="contact-info">Phone: +1 234 567 890</p>
+      <p class="contact-info">Email: info@example.com</p>
+    </div>
+  </section>
+  <br>
+  <br>
+  <section id="hlo">
+  <a href="#home"><center>Back to Top</center></a>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
