@@ -1,0 +1,22 @@
+Scrum Page:
+
+Roles:
+
+Product Owner: PixelPioneers
+Scrum Master: Mukunda K G
+Development Team: Cross-functional and self-organizing, responsible for delivering the product increment.
+Artifacts:
+
+Product Backlog: 
+1. Login page needs to be created
+2. Main page with the requirements from the clients
+3. In page links to be added
+4. Final running of page needs to be done.
+
+Events:
+
+Sprint Planning: Basic team discussion as to who needs to do what in the project
+Sprint Review: Work was assigned successfully and work started immediately
+Sprint Retrospective: Great team was attained.
+
+Project successfully accomplished and published and pushed ti git-hub in the repository.
